@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'g$gj5xuplf*4i$2(n^^7wu7uog(x^&6+jsrdgn0u1snewye4ya'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["mellrashell.pythonanywhere.com", u"mellrashell.pythonanywhere.com"]
 
 
 # Application definition
